@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int add(int, int);
-
+int sub(int, int);
 int main(void)
 {
   int a,b;
@@ -11,6 +11,7 @@ int main(void)
 
   printf("add_result: %d \n", add(a,b));
 
+  printf("sub result: %d \n", sub(a,b));
   return 0;
 
 }
