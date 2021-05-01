@@ -4,9 +4,12 @@ int add(int, int);
 
 int main(void)
 {
-  int a=5, b=4;
+  int a,b;
 
-  printf("add_result: %d \n", add(5,4));
+  printf("enter two nos.\n ");
+  scanf("%d %d", &a, &b);
+
+  printf("add_result: %d \n", add(a,b));
 
   return 0;
 
